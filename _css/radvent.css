@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	overflow-X: hidden;
+	margin: 0;
+	padding: 50px 0;
+	background: url("_images/background.jpg") 50% 50% no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Raleway',sans-serif;
+}
+
+#doors {
+	perspective: 50rem;
+	display: flex;
+	max-width: 600px;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+	counter-reset: doors;
+}
+
+#doors button {
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: relative;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	text-decoration: none;
+	counter-increment: doors;
+	outline-offset: 1px;
+}
+#doors button img {
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+#doors button::before {
+	content: counter(doors);
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	border: 1px dashed #fff;
+	background: url("_images/background.jpg") 50% 50% no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 120px;
+	text-align: center;
+	transition: transform 1s ease-in;
+	transform-origin: 0% 50%;
+}
+#doors button::after {
+	content: '';
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	box-shadow: inset 0 0 .5rem #000;
+}
+
+#doors button:nth-child(even) {
+	background-color: #900;
+}
+#doors button:nth-child(even):focus {
+	outline-color: #f00;
+}
+#doors button:nth-child(odd) {
+	background-color: #090;
+}
+#doors button:nth-child(odd):focus {
+	outline-color: #0f	0;
+}
+#doors button.ajar::before {
+	transform: rotateY(-30deg);
+}
+#doors button:nth-child(2n).ajar::before {
+	transform: rotateY(-45deg);
+}
+#doors button:nth-child(3n).ajar::before {
+	transform: rotateY(-22.5deg);
+}
+#doors button:nth-child(4n).ajar::before {
+	transform: rotateY(-37.5deg);
+}
+#doors button:nth-child(6n).ajar::before {
+	transform: rotateY(-15deg);
+}
+
+#doors button.open::before {
+	transform: rotateY(-90deg) !important;
+}
+#doors button:nth-child(2n).open::before {
+	transform: rotateY(-97.5deg) !important;
+}
+#doors button:nth-child(3n).open::before {
+	transform: rotateY(-82.5deg) !important;
+}
+
+#doors button:nth-child(even).today:before {
+	color: #f00;
+}
+#doors button:nth-child(odd).today:before {
+	color: #0f0;
+}
+
+#player {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: .5rem;
+	background: #ffffffcc;
+	box-shadow: -1rem 0 1rem #000000;
+	transform: translateY(100%);
+	transition: transform 1s ease-in;
+}
+#player.open {
+	transform: translateY(0);
+}
+
+#player img {
+	width: 48px;
+	height: 48px;
+	margin-right: 1rem;
+	vertical-align: middle; 
+}
+#player p {
+	margin: 0;
+	line-height: 1;
+}
