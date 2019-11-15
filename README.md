@@ -36,6 +36,8 @@ keyboard, but there are no ARIA states, the focus outlines appear
 behind the absolutely positioned door elements, etc. etc. I could
 probably work on that, and I might, if I have time.
 
+It's not terribly responsive, either.
+
 You'll notice this checks the day of the month but doesn't actually
 check to see what month it is. I honestly don't care, but you might if
 your gift recipient is a snooper.
