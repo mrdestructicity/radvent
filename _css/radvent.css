@@ -65,7 +65,8 @@ body {
 	font-weight: 800;
 	line-height: 120px;
 	text-align: center;
-	transition: transform 1s ease-in;
+	text-shadow: 0 0 2px #000;
+	transition: filter 1s ease-in, transform 1s ease-in;
 	transform-origin: 0% 50%;
 }
 #doors button::after {
@@ -90,7 +91,7 @@ body {
 	background-color: #090;
 }
 #doors button:nth-child(odd):focus {
-	outline-color: #0f	0;
+	outline-color: #0f0;
 }
 #doors button.ajar::before {
 	transform: rotateY(-30deg);
@@ -109,6 +110,7 @@ body {
 }
 
 #doors button.open::before {
+	filter: brightness(0.5);
 	transform: rotateY(-90deg) !important;
 }
 #doors button:nth-child(2n).open::before {

@@ -1,0 +1,152 @@
+[
+	{
+		"song": "The Christmas Song",
+		"artist": "Nat King Cole",
+		"artwork": "_images/2007.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Mel Tormé",
+		"artwork": "_images/2008a.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Mel Tormé Jr.",
+		"artwork": "_images/2008b.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "Tha Christmas Song",
+		"artist": "MT3",
+		"artwork": "_images/2009.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song (Remix)",
+		"artist": "Mel Tormé feat. Billy Ray Cyrus",
+		"artwork": "_images/2010.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song (Diplo Remix)",
+		"artist": "Mel Tormé feat. Diplo",
+		"artwork": "_images/2011.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song (Seoul Town Road Remix)",
+		"artist": "Mel Tormé feat. BTS",
+		"artwork": "_images/2012.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Christina Aguilera",
+		"artwork": "_images/2013.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Michael Bublé",
+		"artwork": "_images/2014.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Justin Bieber feat. Usher",
+		"artwork": "_images/2015.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Rosemary Clooney",
+		"artwork": "_images/2016a.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Perry Como",
+		"artwork": "_images/2016b.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Bing Crosby",
+		"artwork": "_images/2017.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "John Denver",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Celine Dion",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "The Vince Guaraldi Trio",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Whitney Houston",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "Stevie Wonder",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song",
+		"artist": "The Jackson 5",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Thong",
+		"artist": "Sisqo",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Bong",
+		"artist": "Cheech & Chong",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Hanukkah Song",
+		"artist": "Adam Sandler",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "That Christmas Song",
+		"artist": "Cheap Trick",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "The Christmas Song Song",
+		"artist": "Rocky and Balls",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	},
+	{
+		"song": "Chipmunks Roasting on an Open Fire",
+		"artist": "Bob Rivers",
+		"artwork": "_images/2018.jpg",
+		"audio": "_audio/test.mp3"
+	}
+]
