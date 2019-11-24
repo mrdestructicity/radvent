@@ -23,7 +23,7 @@ body {
 #doors {
 	perspective: 50rem;
 	display: flex;
-	max-width: 600px;
+	max-width: 620px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: stretch;
@@ -35,7 +35,7 @@ body {
 	width: 120px;
 	height: 120px;
 	position: relative;
-	margin: 0;
+	margin: 2px;
 	border: 0;
 	padding: 0;
 	text-decoration: none;
@@ -117,7 +117,7 @@ body {
 	transform: rotateY(-97.5deg) !important;
 }
 #doors button:nth-child(3n).open::before {
-	transform: rotateY(-82.5deg) !important;
+	transform: rotateY(-93.75deg) !important;
 }
 
 #doors button:nth-child(even).today:before {
